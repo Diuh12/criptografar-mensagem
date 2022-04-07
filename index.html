@@ -37,17 +37,30 @@
 
       <section id="quantidadeDeCasa">
         <span id="qntCasas"> Quantidade de casas </span>
-        <input type="number" id="correrCasa"/>
+        <input type="number" id="correrCasa" />
       </section>
 
       <section id="acaoCifragem">
-        <input type="radio" name="cifrarOuDecifrar" id="cifrar" onchange="mudarNomeBotao(this)" value="codificar" checked />
+        <input
+          type="radio"
+          name="cifrarOuDecifrar"
+          id="cifrar"
+          onchange="mudarNomeBotao(this)"
+          value="codificar"
+          checked
+        />
         <label for="cifrar">Codificar</label>
 
-        <input type="radio" name="cifrarOuDecifrar" id="decifrar" onchange="mudarNomeBotao(this)" value="decodificar" />
+        <input
+          type="radio"
+          name="cifrarOuDecifrar"
+          id="decifrar"
+          onchange="mudarNomeBotao(this)"
+          value="decodificar"
+        />
         <label for="decifrar">Decodificar</label>
       </section>
-      
+
       <section id="execucao">
         <button id="botaoExecucao">Codificar mensagem!</button>
       </section>
