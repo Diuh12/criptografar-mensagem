@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin-left: 38%;
+    margin-top: 8%;
+    background-image: url("./img/wallpapersden.com_hack-4k-art_2560x1440.jpg");
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+    background-size: 100%;
+}
+
+input[type="radio"]:checked+label {
+    background-color: rgb(88, 209, 88);
+}
+
+input[type="radio"] {
+    display: none;
+}
+
+label {
+    border-radius: 45px;
+    border: 1px solid #000;
+    background-color: #cfb5c7;
+    color: black;
+    width: 100px;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+}
+
+textarea {
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+span {
+    background-color: #fff;
+    margin-right: 10px;
+}
+
+input[type="number"] {
+    width: 55px;
+}
+
+#cifragem {
+    display: flex;
+    margin-right: 500px;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#opcaoCifragem, #acaoCifragem {
+    display: flex;
+    justify-content: space-between;
+}
+
+#areaTexto {
+    display: flex;
+}
+
+#quantidadeDeCasa {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+#qntCasas {
+    border-style: outset;
+}
+
+#execucao {
+    display: flex;
+    justify-content: center;
+}
+
+#botaoExecucao {
+    border-style: outset;
+    background-color: rgb(216, 120, 216);
+    border-radius: 45px;
+    height: 110%;
+}
